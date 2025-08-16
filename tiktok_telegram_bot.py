@@ -47,7 +47,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # دامەزراندنی بۆتەکە
 def main():
-    TOKEN = os.environ.get("TOKEN")
+    TOKEN = os.environ.get("8185077536:AAGJNU9xZJVMCPLV7McY6HBm_zrB_392jgI")
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
